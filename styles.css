@@ -112,6 +112,7 @@ header{
     grid-template-rows: auto;
     gap: 2rem;
     margin-top: 1em;
+    text-decoration: none;
 }
   
 
@@ -170,9 +171,9 @@ header{
 
   @media screen and (max-width: 768px) {
     header{
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90%;
+        margin-left: 9%;
+        margin-right: 9%;
+        width: 85%;
     }
 
     .todo{
@@ -186,7 +187,7 @@ header{
         grid-template-rows: auto;
     }
     footer {
-        height: 26rem;   
+        height: 40rem;   
     }
 
   }
