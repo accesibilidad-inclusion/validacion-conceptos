@@ -216,7 +216,7 @@ header{
         font-size: 14px;
     }
     .text{
-        height: 10rem;
+        height: auto;
         margin-bottom: 2.6rem;
     }
   }
