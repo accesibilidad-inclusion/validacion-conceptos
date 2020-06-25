@@ -166,6 +166,8 @@ header{
 
   .text{
       margin-bottom: 2.5rem;
+      height: 7REM;
+      padding-bottom: 2.5rem;
 
   }
 
@@ -188,6 +190,10 @@ header{
     }
     footer {
         height: 37rem;   
+    }
+    .text{
+        height: 9;
+        margin-bottom: 2.6rem;
     }
 
   }
