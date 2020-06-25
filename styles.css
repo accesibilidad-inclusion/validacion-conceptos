@@ -130,7 +130,7 @@ header{
       color: #15213b;
   }
   h3{
-     font-size: 1.3rem;
+     font-size: 1.6rem;
      font-weight: 800;
      color: #023047;
      margin: 5px;
@@ -173,8 +173,8 @@ header{
 
   @media screen and (max-width: 768px) {
     header{
-        margin-left: 9%;
-        margin-right: 9%;
+        margin-left: 4%;
+        margin-right: 4%;
         width: 85%;
     }
 
