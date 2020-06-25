@@ -216,12 +216,10 @@ header{
         font-size: 14px;
     }
     .text{
-        height: auto;
-        margin-bottom: 2.6rem;
+        height: 10rem;
+        padding-bottom: 2.6rem;
     }
-    .contenedor iframe{
-        padding-top: 3rem;
-    }
+   
   }
 
  /* @font-face {
