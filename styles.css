@@ -218,6 +218,10 @@ header{
     .text{
         height: 11rem;
         padding-bottom: 2.6rem;
+
+    }
+    .contenedor iframe{
+        position: relative;
     }
    
   }
