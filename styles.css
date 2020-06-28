@@ -198,10 +198,7 @@ header{
     footer {
         height: 37rem;   
     }
-    .text{
-        height: 7rem;
-        margin-bottom: 2.6rem;
-    }
+
 
   }
 
@@ -217,14 +214,8 @@ header{
     p{
         font-size: 14px;
     }
-    .text{
-        height: 11rem;
-        padding-bottom: 2.6rem;
 
     }
-    
-   
-  }
 
  /* @font-face {
     font-family: 'Lustria';
