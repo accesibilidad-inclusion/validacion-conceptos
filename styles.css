@@ -8,10 +8,13 @@ body{
 
 footer{
     width: 100%;
-    height: 10rem;
+    height: 17rem;
     margin-top: 10rem;
-    padding: none;
     background-color:#023047 ;
+    display: block;
+    text-align: center;
+    padding:3.4em 0px;
+    justify-content: space-between;
 }
 
 header{
@@ -69,8 +72,8 @@ header{
       padding-top: 1rem;
       padding-bottom: 0.5rem;
       margin: auto;
-      background-color: #4BAD72;
-      border: 0.1rem solid #4BAD72;
+      background-color: #023047;
+      border: 0.1rem solid #023047;
       color: honeydew;
       font-weight: 700;
       transition: 1s;
@@ -84,10 +87,34 @@ header{
   .boton:hover{
     background-color: honeydew;
     color: #FC8500;
-    border: 0.1em solid #FC8500;
+    border: 0.2em solid #FC8500;
     ;
 
   }
+  .wiki {
+    position: relative;
+    margin-top: 1rem;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    font-weight: 200;
+ 
+  }
+.pie{ 
+    margin-left: 35%;
+    margin-right: 35%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    margin-top: 1em;
+    
+}
+.pie a {
+    text-decoration: none;
+}
+
 
   h1{
       font-size: 3rem;
@@ -101,6 +128,29 @@ header{
       font-size: 1.3rem;
       color: #15213b;
   }
+
+  h3{
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #023047;
+    margin: 5px;
+   }
+
+   h4 {
+    font-size: 16px;
+     color: honeydew;
+     margin-block-start: 0.33em;
+   margin-block-end: 0.3em;
+ }
+ h5{
+    font-size: 14px;
+     color: honeydew;
+    margin-block-start: 1em;
+    margin-block-end: 1.3em;
+    font-weight: 350;
+
+ }
+
 
   p{
       font-size: 16px;
@@ -118,9 +168,9 @@ header{
 
   @media screen and (max-width: 768px) {
     header{
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90%;
+        margin-left: 9%;
+        margin-right: 9%;
+        width: 85%;
     }
 
     .todo{
@@ -128,6 +178,15 @@ header{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
+    .pie{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    footer {
+        height: 37rem;   
+    }
+
 
   }
 
