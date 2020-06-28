@@ -175,6 +175,9 @@ header{
         margin-right: 9%;
         width: 70%;
     }
+    h1{
+        font-size: 2.2rem;
+    }
 
     .todo{
         display: grid;
