@@ -111,6 +111,9 @@ header{
     grid-template-rows: auto;
     gap: 2rem;
     margin-top: 1em;
+    
+}
+.pie a {
     text-decoration: none;
 }
   
