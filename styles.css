@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    margin-top: 5rem;
+    margin-top: 15rem;
     background-color: whitesmoke;
     margin: 0em;
 }
@@ -21,7 +21,7 @@ footer{
 header{
     margin-left: 9%;
     margin-right: 9%;
-    width: 45%;
+    width: 47%;
     margin-bottom: 5rem;
 }
 
@@ -121,6 +121,7 @@ header{
       font-size: 3rem;
       font-weight: 800;
       color: #FC8500;
+      margin: 2.8rem 0 0.2rem 0;
       
   }
 
@@ -172,7 +173,7 @@ header{
     header{
         margin-left: 9%;
         margin-right: 9%;
-        width: 85%;
+        width: 76%;
     }
 
     .todo{
@@ -194,13 +195,12 @@ header{
 
   @media screen and (max-width: 360px) {
       h1{
-          font-size: 2rem;
+          font-size: 1.8rem;
       }
 
       header p{
         font-size: 1rem;
     }
-
     p{
         font-size: 14px;
     }
